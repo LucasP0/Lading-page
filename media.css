@@ -16,20 +16,20 @@
         #texto 
             {}
         h2 
-            {font-size: 5vw;}
+        {font-size: 5vw;}
         #ptexto 
-            {max-width: 300px;
-            font-size: 1.5vw;}
+        {max-width: 300px;
+        font-size: 1.5vw;}
         img 
-            {width:400px;}
+        {width:400px;}
         footer 
-            {font-size: 3vw;}
+        {font-size: 3vw;}
     
 }
 @media screen and (max-width:1070px) {
     header 
-        {justify-content: center;
-        margin: 40px;}
+    {justify-content: center;
+    margin: 40px;}
 
     h1 
     {margin-left: 5vh;
@@ -59,7 +59,8 @@
 
     main 
         {display: flex;
-        flex-direction: column;}
+        flex-direction: column;
+        margin: auto;}
 
     h2 
         {font-size: 7vw;}
