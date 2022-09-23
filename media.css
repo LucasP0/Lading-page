@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1400px) {
+  
+    main 
+        {
+            margin-top: 10vh;
+            margin-left: 3vh;;
+            flex: 1 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 40px;
+                
+        }
+        #texto 
+            {}
+        h2 
+            {font-size: 5vw;}
+        #ptexto 
+            {max-width: 300px;
+            font-size: 1.5vw;}
+        img 
+            {width:400px;}
+        footer 
+            {font-size: 3vw;}
+    
+}
+@media screen and (max-width:1070px) {
+    header 
+        {justify-content: center;
+        margin: 40px;}
+
+    h1 
+    {margin-left: 5vh;
+    margin-right: 0px;
+    font-size: 3vw;}
+
+    nav a  
+    {font-size: 1.5vw;}
+
+    img 
+    {width: 300px;}}
+
+    @media screen and (max-width:630px) {
+    header 
+        {display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+    h1 
+        {margin-left: 10vh;
+        font-size: 4vw;
+        margin-bottom: 10px;}
+    nav a 
+        {padding: 3px;
+        font-size: 2vw;
+        margin-top: 300px;}
+
+    main 
+        {display: flex;
+        flex-direction: column;}
+
+    h2 
+        {font-size: 7vw;}
+
+    #ptexto
+        {max-width: 200px;
+        font-size: 2.3vw;}
+
+    input 
+        {width: 150px;
+        height: 10px;}
+
+    #enviar 
+        {height: 40px;}
+        
+    img 
+        {width: 230px;
+        margin: auto;}
+
+    footer 
+        {font-size: 4vw;
+        margin-top: 10px;
+    }}
+    
