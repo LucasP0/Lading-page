@@ -1,8 +1,12 @@
 @charset "UTF-8";
-html, body 
-    {height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,900;1,900&display=swap');
+
+* {
     padding: 0px;
-    margin: 0px;}
+    margin: 0px;
+}
+html, body 
+    {height: 100%;}
 
 body 
     {color: white;
@@ -10,50 +14,96 @@ body
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.832); }
 
-nav 
-    {margin-top: 25px;
+header
+    {margin-top: 3vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;}
+    justify-content: space-evenly;
+    align-items: center;
+    }
 h1 
-    {font-size: 2em;
+    {
     width: 150px;
     margin-right: 200px;
-    color: white;}
+    color: white;
+    font: 900 2vw 'Roboto', sans-serif;}
 
-#links
-    {}
 
-section a 
-    {font-size: 1em;
+
+nav a 
+    {font-size: 1vw;
     padding: 15px;
     text-decoration: none;
-    color: white;}
+    color: white;
+    font: 100 1vw 'Roboto', sans-serif;}
+
+a:hover 
+    {color: rgb(132, 13, 201);
+    transition: 0.3s all;}
+#inscreva-se 
+    {
+    border: 2px solid rgb(132, 13, 201);
+    border-radius: 15px;
+    padding: 10px;
+    }
+#inscreva-se:hover 
+    {background-color: rgb(132, 13, 201);
+    color: white;}  
+
+/* inicio do main */
 
 main 
-    {margin-top: 55px;
+    {margin-top: 10vh;
     flex: 1 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 90px}
+    gap: 90px;
+    }
 
 #texto 
-    {width: 400px;
-    font-size: 2em;} 
+    {max-width: 500px;
+    font-size: 1.5vw;} 
 
 h2 
     {margin-bottom: 1px;}
 
 #ptexto
-    {font-size: 15px;}   
+    {font-size: 0.6vw;
+    line-height: 20px;}  
+img 
+    {width: 620px;}
 
-#imagem 
-    {}
+#roxo 
+    {color:rgb(132, 13, 201) ;}
+
+form 
+    {display: flex;
+    flex-direction: column;
+    width: 70%;}
+#enviar
+     {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 13, 201);
+    color: white;
+    font-weight: bold;} 
+    
+#enviar:hover 
+    {cursor: pointer;}  
+
+input 
+    {margin-top: 15px;
+    height: 20px;
+    padding: 13px;
+    border-radius: 15px;
+    border: none;} 
+    
+ 
+
 
 
 footer 
     {flex-shrink: 0px;
-    font-size: 1em;
+    font: 100 1.2vw 'Roboto', sans-serif;
     text-align: center;}
